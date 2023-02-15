@@ -1,0 +1,32 @@
+module.exports = {
+    // azure連線ID
+    azureClient: {
+        TENANT_ID: '',
+        CLIENT_ID: '',
+        CLIENT_SECRET: '',
+    },
+    // graphAPI EndPoint
+    graphPath: '',
+
+    // 以下為參數預設值，也可以在執行時設定
+
+    // 郵件檢索設定
+    // 所搜尋之郵件收到的時間區間
+    start: '08:00',
+    end: '09:00',
+
+    // LINE推播設定
+    // 失敗重試數
+    pushRetry: 3,
+    // 同時請求數
+    pushRequestOnce: 3,
+    // 請求間格時間(ms)
+    pushTimeout: 1000,
+
+    // 工作設定
+    // 工作失敗重試數
+    workRetry: 3,
+    // 工作重試間格時間(ms) now: 1min
+    workRetryTimeout: 60000,
+
+}

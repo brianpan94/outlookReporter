@@ -1,0 +1,22 @@
+{
+  "name": "mailselector",
+  "version": "1.0.0",
+  "description": "filter email content",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index --subject=\"nbunp\" --token=\"Ycd4Jbui1oDN90iLDfdGPZ1Xqp93WBjyVIwKT8s8UWdt1WiYQ6ORpWiAQ5CvF4i9G5Yq9B65DWqcksQhoQAZXA3DdcUenHTKGR0Vvq9VfE6cbf+BvxlrqPoVChrZU0wPnQtSXiwE1efIyLZzmLXLfwdB04t89/1O/w1cDnyilFU=\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^3.1.3",
+    "@microsoft/microsoft-graph-client": "^3.0.5",
+    "httpntlm": "^1.7.6",
+    "minimist": "^1.2.5",
+    "node-ews": "^3.4.2",
+    "node-html-parser": "^1.2.20",
+    "request-promise": "^4.2.6"
+  }
+}
