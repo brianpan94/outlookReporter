@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "dev": "node index --subject=\"nbunp\" --token=\"Ycd4Jbui1oDN90iLDfdGPZ1Xqp93WBjyVIwKT8s8UWdt1WiYQ6ORpWiAQ5CvF4i9G5Yq9B65DWqcksQhoQAZXA3DdcUenHTKGR0Vvq9VfE6cbf+BvxlrqPoVChrZU0wPnQtSXiwE1efIyLZzmLXLfwdB04t89/1O/w1cDnyilFU=\"",
+    "dev": "node index --subject=\"\" --token=\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
